@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><djsattic><?phpheader('Content-type: text/xml');require_once '../../includes/mySQL_Sessions.inc';session_start();	if (empty($_SESSION['idnum']))	{ die(); }$clean['orgby'] = str_replace('\'', '`', $_GET['orgby']);$_SESSION['orgby'] = mysqlclean($clean,'orgby',3,$connection);?></djsattic>

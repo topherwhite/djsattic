@@ -1,0 +1,1 @@
+<?phprequire_once '../../includes/mySQL_Sessions.inc';session_start();	if (empty($_SESSION['state']))	{ header("Location: http://www.djsattic.com/"); exit; }session_destroy();header("Location: http://www.djsattic.com/");exit;?>

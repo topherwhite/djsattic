@@ -1,0 +1,1 @@
+<?phpecho $_SERVER["HTTP_PC_REMOTE_ADDR"];?>

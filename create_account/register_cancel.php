@@ -1,0 +1,1 @@
+<?phprequire '../includes/mySQL_Sessions.inc';session_start();	if (empty($_SESSION['state']))	{ header("Location: http://www.mysimum.com/"); exit; }session_destroy();$ForwardInfo = "";header("Location: ../gen/home.php?{$ForwardInfo}");exit;?>

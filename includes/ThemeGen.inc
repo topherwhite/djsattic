@@ -1,0 +1,1 @@
+<?phpfunction ColorOffset($OrigColor,$ColorOffset){	$output = 	(dechex(hexdec(substr($OrigColor,0,2)) + $ColorOffset))			.	(dechex(hexdec(substr($OrigColor,2,2)) + $ColorOffset))			.	(dechex(hexdec(substr($OrigColor,4,2)) + $ColorOffset))			;return $output;}?>

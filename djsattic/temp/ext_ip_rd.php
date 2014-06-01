@@ -1,0 +1,1 @@
+<?php$ip = $_SERVER["HTTP_PC_REMOTE_ADDR"];$key = mktime();header("Location: http://127.0.0.1/wifi/ip_store/ipstore.php?ip={$ip}&key={$key}");/*header('Content-type: text/xml');echo	"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"	.	"<wifi><ip>" . $ip . "</ip></wifi>";*/?>

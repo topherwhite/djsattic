@@ -1,0 +1,1 @@
+<?phpheader('Content-type: text/xml');echo	"<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n"	.	"<wifi>"	.	"<ip>"	.	$_SERVER["HTTP_PC_REMOTE_ADDR"]	.	"</ip>"	.	"</wifi>"	;?>
